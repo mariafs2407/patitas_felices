@@ -8,7 +8,7 @@ import './Home.css';
 
 const Home = (props) => {
     return (
-        <>
+        <div>
             <Banner />
             <article className='container_beneficios'>
                 <a className="donar" href="#">
@@ -22,7 +22,7 @@ const Home = (props) => {
             </article>
             <Carousel/>
 
-        </>
+        </div>
     );
 }
 
