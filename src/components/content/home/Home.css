@@ -1,0 +1,24 @@
+/* BOTON DE BENEFICIOS---- */
+.container_beneficios{
+    border-bottom: solid #744c24;
+    padding: 20px 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.container_beneficios .donar, 
+.container_beneficios .patrinar{        
+    background:#fbb931 ;
+    color: #744c24;
+    text-decoration: none;
+    border-radius: 10px ;
+    padding: 20px 15px;  
+    margin: 0px 10px;
+    font-size: 25px;
+    font-weight: 500; 
+}
+
+.container_beneficios .donar:hover, 
+.container_beneficios .patrinar:hover{ 
+    color: #362411;
+}
