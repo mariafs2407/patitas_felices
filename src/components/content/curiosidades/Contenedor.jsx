@@ -138,7 +138,7 @@ const Contenedor = (props) => {
                             </ul>
                         </article>
                         <div>
-                            <h1>Malos comportamientos en tu mascota</h1>
+                            <h1>¿Malos comportamientos en tu mascota?</h1>
                             <img className="curios_img" src={comportamiento} alt="" />
                         </div>
                     </div>
