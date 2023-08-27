@@ -1,13 +1,13 @@
 .container_donar_patrinar{
-    border-bottom: solid #744c24;
+    border-bottom: solid var(--color1);
     padding: 20px 20px;
     margin: 20px;
     display: flex;
     justify-content: center;
 }
 .container_home a{
-    color: #744c24;
-    text-decoration: underline wavy #744c24 ;
+    color: var(--color1);
+    text-decoration: underline wavy var(--color1) ;
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
@@ -15,8 +15,8 @@
 .container_donar_patrinar .donar, 
 .container_donar_patrinar .patrinar,
 .container_beneficios .beneficio{        
-    background:#fbb931 ;
-    color: #744c24;
+    background:var(--color3) ;
+    color: var(--color1);
     text-decoration: none;
     border-radius: 10px ;
     padding: 20px 15px;  
@@ -30,7 +30,7 @@
 .container_beneficios .beneficio:hover,
 .container_home a
 { 
-    color: #362411;
+    color: var(--color2);
 }
 
 .container_beneficios{    

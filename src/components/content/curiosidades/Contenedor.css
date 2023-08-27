@@ -1,0 +1,38 @@
+
+.container_curio{
+    width: 100%;
+    max-width: 90vw; 
+    margin: 20px auto;   
+
+}
+.container_curio_content{
+    display: flex;
+    justify-content: center;
+}
+.container_curio_content article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-right: 20px;
+}
+
+.container_curio_content div .curios_img {
+    border-radius: 20px;    
+    opacity: 90%;
+    margin: 15px;
+    transition: 1.5s;
+}
+
+.container_curio_content div .curios_img:hover {
+    opacity: 100%;
+    transform: scale(1.10);
+}
+
+.container_curio_content div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}

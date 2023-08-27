@@ -30,7 +30,7 @@
     flex-direction: row;
 }
 .header_nav .header_link a {
-    color: #744c24;
+    color: var(--color1);
     text-decoration: none;
     font-size: 25px;
     font-weight: 500;    
@@ -40,7 +40,7 @@
 }
 
 .header_nav .header_link a:hover{
-    color: #362411;
+    color: var(--color2);
 }
 /* -------WAVE------- */
 .container_header .wave {    

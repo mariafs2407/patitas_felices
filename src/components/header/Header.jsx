@@ -20,7 +20,7 @@ const Header = () => {
                         <FontAwesomeIcon icon={faPaw} style={{ color: "#744c24", }} />
                         Nosotros
                     </a>
-                    <a href="#">
+                    <a href="curiosidades">
                         <FontAwesomeIcon icon={faMagnifyingGlass} style={{ color: "#744c24", }} />
                         Curiosidades
                     </a>
