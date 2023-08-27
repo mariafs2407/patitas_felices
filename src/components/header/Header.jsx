@@ -12,11 +12,11 @@ const Header = () => {
                     <img src={logo} alt="patitas_felices" />
                 </div>
                 <div className='header_link'>
-                    <a href="#">
+                    <a href="/">
                         <FontAwesomeIcon icon={faHouse} style={{ color: "#744c24", }} />
                         Home
                     </a>
-                    <a href="#">
+                    <a href="nosotros">
                         <FontAwesomeIcon icon={faPaw} style={{ color: "#744c24", }} />
                         Nosotros
                     </a>
