@@ -1,13 +1,20 @@
-/* BOTON DE BENEFICIOS---- */
-.container_beneficios{
+.container_donar_patrinar{
     border-bottom: solid #744c24;
     padding: 20px 20px;
     margin: 20px;
     display: flex;
     justify-content: center;
 }
-.container_beneficios .donar, 
-.container_beneficios .patrinar{        
+.container_home a{
+    color: #744c24;
+    text-decoration: underline wavy #744c24 ;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.container_donar_patrinar .donar, 
+.container_donar_patrinar .patrinar,
+.container_beneficios .beneficio{        
     background:#fbb931 ;
     color: #744c24;
     text-decoration: none;
@@ -18,7 +25,21 @@
     font-weight: 500; 
 }
 
-.container_beneficios .donar:hover, 
-.container_beneficios .patrinar:hover{ 
+.container_donar_patrinar .donar:hover, 
+.container_donar_patrinar .patrinar:hover,
+.container_beneficios .beneficio:hover,
+.container_home a
+{ 
     color: #362411;
+}
+
+.container_beneficios{    
+    padding: 20px 0 10px 0;
+    margin: 20px 0 5px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.home_icon{
+    padding-right: 10px;
 }

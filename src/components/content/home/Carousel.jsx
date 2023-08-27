@@ -1,5 +1,13 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
+import b1 from '../../../assets/beneficios/ecologia.png';
+import b2 from '../../../assets/beneficios/entrenamiento.png';
+import b3 from '../../../assets/beneficios/fotografia.png';
+import b4 from '../../../assets/beneficios/juguetes.png';
+import b5 from '../../../assets/beneficios/masct2.png';
+import b6 from '../../../assets/beneficios/masct3.png';
+import b7 from '../../../assets/beneficios/veterinaria.png';
+import './Carousel.css';
 
 const Carousel = (props) => {
 
@@ -11,23 +19,28 @@ const Carousel = (props) => {
         slidesToScroll: 3
     };
     return (
-        <div>
-            <h2> Multiple items </h2>
-            <Slider {...settings}>
+        <div className="container_carousel">            
+            <Slider {...settings} className="container_carousel">
                 <div>
-                    <h3>1</h3>
+                    <img src={b1} className="carousel_img" />
                 </div>
                 <div>
-                    <h3>2</h3>
+                    <img src={b2} className="carousel_img"  />
                 </div>
                 <div>
-                    <h3>3</h3>
+                    <img src={b3} className="carousel_img"  />
                 </div>
                 <div>
-                    <h3>4</h3>
+                    <img src={b4} className="carousel_img"  />
                 </div>
                 <div>
-                    <h3>5</h3>
+                    <img src={b5} className="carousel_img"  />
+                </div>
+                <div>
+                    <img src={b6} className="carousel_img"  />
+                </div>
+                <div>
+                    <img src={b7} className="carousel_img" />
                 </div>
             </Slider>
         </div>

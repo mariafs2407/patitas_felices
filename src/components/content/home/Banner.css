@@ -1,16 +1,9 @@
 .container_banner{
-    display: flex;
-    justify-content: center;
-    padding: 20px 0 30px 0;
-}
-.container_slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
     max-width: 1200px;
-    
+    width: 100%;
+    margin: 20px auto; 
 }
+
 
 .slide img{   
     flex: 1; 
