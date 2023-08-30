@@ -17,11 +17,10 @@ ReactDOM.createRoot(document.getElementById('root'))
         <Route path='/' element={<App />}>
           <Route index element={<Home />} />
           <Route path='nosotros' element={<Nosotros />} />
-          <Route path="curiosidades" element={<Curiosities />} />
-          <Route path="adopta" element={<Adopt />} />
-          <Route path="testimonio" element={<Testimony />} />
-          <Route path="donar" element={<Donate />} />
-
+          <Route path='curiosidades' element={<Curiosities />} />
+          <Route path='adopta' element={<Adopt />} />
+          <Route path='testimonio' element={<Testimony />} />
+          <Route path='donar' element={<Donate />} />
         </Route>
       </Routes>
     </BrowserRouter>
