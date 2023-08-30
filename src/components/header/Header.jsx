@@ -13,23 +13,23 @@ const Header = () => {
                     <img src={logo} alt="patitas_felices" />
                 </div>
                 <div className='header_link'>
-                    <NavLink className="nav_Link" href="/">
+                    <NavLink className="nav_Link" to="/">
                         <FontAwesomeIcon icon={faHouse} style={{ color: "#744c24", }} />
                         Home
                     </NavLink>
-                    <NavLink className="nav_Link" href="nosotros">
+                    <NavLink className="nav_Link" to="nosotros">
                         <FontAwesomeIcon icon={faPaw} style={{ color: "#744c24", }} />
                         Nosotros
                     </NavLink>
-                    <NavLink className="nav_Link" href="curiosidades">
+                    <NavLink className="nav_Link" to="curiosidades">
                         <FontAwesomeIcon icon={faMagnifyingGlass} style={{ color: "#744c24", }} />
                         Curiosidades
                     </NavLink>
-                    <NavLink className="nav_Link" href="adopta">
+                    <NavLink className="nav_Link" to="adopta">
                         <FontAwesomeIcon icon={faDog} style={{ color: "#744c24", }} />
                         Adopta
                     </NavLink>
-                    <NavLink className="nav_Link" href="testimonio">
+                    <NavLink className="nav_Link" to="testimonio">
                         <FontAwesomeIcon icon={faUsers} style={{ color: "#744c24", }} />
                         Testimonio
                     </NavLink>
