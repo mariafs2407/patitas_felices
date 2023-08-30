@@ -3,6 +3,7 @@ import logo from '../../assets/logo_pf.png';
 import './Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse, faMagnifyingGlass, faDog, faUsers,faPaw } from '@fortawesome/free-solid-svg-icons';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -12,26 +13,26 @@ const Header = () => {
                     <img src={logo} alt="patitas_felices" />
                 </div>
                 <div className='header_link'>
-                    <a href="/">
+                    <NavLink className="nav_Link" href="/">
                         <FontAwesomeIcon icon={faHouse} style={{ color: "#744c24", }} />
                         Home
-                    </a>
-                    <a href="nosotros">
+                    </NavLink>
+                    <NavLink className="nav_Link" href="nosotros">
                         <FontAwesomeIcon icon={faPaw} style={{ color: "#744c24", }} />
                         Nosotros
-                    </a>
-                    <a href="curiosidades">
+                    </NavLink>
+                    <NavLink className="nav_Link" href="curiosidades">
                         <FontAwesomeIcon icon={faMagnifyingGlass} style={{ color: "#744c24", }} />
                         Curiosidades
-                    </a>
-                    <a href="adopta">
+                    </NavLink>
+                    <NavLink className="nav_Link" href="adopta">
                         <FontAwesomeIcon icon={faDog} style={{ color: "#744c24", }} />
                         Adopta
-                    </a>
-                    <a href="testimonio">
+                    </NavLink>
+                    <NavLink className="nav_Link" href="testimonio">
                         <FontAwesomeIcon icon={faUsers} style={{ color: "#744c24", }} />
                         Testimonio
-                    </a>
+                    </NavLink>
                 </div>
             </div>
             <svg preserveAspectRatio="none" className="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">

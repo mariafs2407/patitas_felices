@@ -29,7 +29,7 @@
     display: flex;
     flex-direction: row;
 }
-.header_nav .header_link a {
+.header_nav .header_link .nav_Link {
     color: var(--color1);
     text-decoration: none;
     font-size: 25px;
@@ -39,7 +39,7 @@
     flex-direction: column;
 }
 
-.header_nav .header_link a:hover{
+.header_nav .header_link .nav_Link:hover{
     color: var(--color2);
 }
 /* -------WAVE------- */
