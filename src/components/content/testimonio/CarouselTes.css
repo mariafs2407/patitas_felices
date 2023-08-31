@@ -1,0 +1,32 @@
+.cars_testimony{
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.cars_testimony .cars_testimony_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 0;      
+}
+
+.cars_testimony div .cars_testimony_text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+}
+
+.cars_testimony_text p {
+    padding: 20px 0px;
+    text-align: justify;
+}
+
+div .testimonio_img {
+    flex: 1;
+    display: inline-flex;
+    max-width: 500px;
+}

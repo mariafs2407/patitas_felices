@@ -1,8 +1,8 @@
 import React from 'react';
-import contac from '../../assets/contactenos.svg';
-import plaza from '../../assets/plaza_vea.png';
-import comercio from '../../assets/comercio.svg';
-import ricocan from '../../assets/ricocan.svg';
+import contac from '../../assets/footer/contactenos.svg';
+import plaza from '../../assets/footer/plaza_vea.png';
+import comercio from '../../assets/footer/comercio.svg';
+import ricocan from '../../assets/footer/ricocan.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-icons';

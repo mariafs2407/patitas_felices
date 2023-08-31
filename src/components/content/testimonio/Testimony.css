@@ -1,0 +1,13 @@
+.testi_banner {
+    width: 100%;
+    max-width: 1250px;
+    margin: 20px auto;
+}
+
+.testi_banner img {
+    flex: 1;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
