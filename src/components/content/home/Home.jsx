@@ -1,9 +1,11 @@
 import React from 'react';
 import Banner from './Banner';
 import Carousel from './Carousel';
+import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBowlFood ,faShieldDog ,faDog} from '@fortawesome/free-solid-svg-icons';
 import './Home.css';
+
 
 
 const Home = (props) => {
@@ -11,23 +13,23 @@ const Home = (props) => {
         <div className='container_home'>
             <Banner/>
             <article className='container_donar_patrinar'>
-                <a className="donar" href="#">
-                    <FontAwesomeIcon className="home_icon" icon={faBowlFood} beatFade style={{ color: "#744c24", }} />
+                <NavLink className="donar" to="donar">
+                    <FontAwesomeIcon className="home_icon" to="#"icon={faBowlFood} beatFade style={{ color: "#744c24", }} />
                     Donar                 
-                </a>
-                <a className="patrinar"  href="#">
-                    <FontAwesomeIcon className="home_icon" icon={faShieldDog} beatFade style={{ color: "#744c24", }} />
+                </NavLink>
+                <NavLink className="patrinar"  to="#">
+                    <FontAwesomeIcon className="home_icon" to="#" icon={faShieldDog} beatFade style={{ color: "#744c24", }} />
                     Patrinar
-                </a>
+                </NavLink>
             </article>
             <Carousel/>
             <article className='container_beneficios'>
-                <a className="beneficio" href="#">
+                <NavLink className="beneficio" to="beneficios">
                     <FontAwesomeIcon className="home_icon" icon={faDog} beatFade style={{ color: "#744c24", }} />
                     Beneficios                 
-                </a>                
+                </NavLink>                
             </article>
-            <a href="#">Ver todos los beneficios...</a>  
+            <NavLink className="link_beneficios" to="donar">Ver todos los beneficios...</NavLink>  
         </div>
     );
 }

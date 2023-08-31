@@ -8,12 +8,16 @@
   --color2:#362411;
   --color3:#fbb831;
   --color4:#fff8ec;
-  --border-radius: 10px;
+  --border-radius: 10px;  
 
 }
 
 html{     
   color: var(--color1);
   font-family: 'Marmelad', sans-serif;
-  background: var(--color4);
+  background: var(--color4);  
+}
+
+h1{
+  font-family: 'Gluten', cursive;
 }

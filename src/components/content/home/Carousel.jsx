@@ -22,7 +22,7 @@ const Carousel = (props) => {
         <div className="container_carousel">            
             <Slider {...settings} className="container_carousel">
                 <div>
-                    <img src={b1} className="carousel_img" />
+                    <img src={b1} href="beneficios" className="carousel_img" />
                 </div>
                 <div>
                     <img src={b2} className="carousel_img"  />

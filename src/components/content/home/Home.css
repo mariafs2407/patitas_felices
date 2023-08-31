@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
 }
-.container_home a{
+.container_home .link_beneficios{
     color: var(--color1);
     text-decoration: underline wavy var(--color1) ;
     display: flex;
@@ -28,7 +28,7 @@
 .container_donar_patrinar .donar:hover, 
 .container_donar_patrinar .patrinar:hover,
 .container_beneficios .beneficio:hover,
-.container_home a
+.container_home .link_beneficios
 { 
     color: var(--color2);
 }

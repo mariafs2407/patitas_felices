@@ -40,7 +40,6 @@ const CarouselTes = (props) => {
                         <img src={t2} className="testimonio_img" />
                     </div>
                 </div>
-
                 <div>
                     <div className="cars_testimony_content">
                         <div className='cars_testimony_text'>
