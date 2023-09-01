@@ -14,11 +14,11 @@ const Home = (props) => {
             <Banner/>
             <article className='container_donar_patrinar'>
                 <NavLink className="donar" to="donar">
-                    <FontAwesomeIcon className="home_icon" to="#"icon={faBowlFood} beatFade style={{ color: "#744c24", }} />
+                    <FontAwesomeIcon className="home_icon" icon={faBowlFood} beatFade style={{ color: "#744c24", }} />
                     Donar                 
                 </NavLink>
-                <NavLink className="patrinar"  to="#">
-                    <FontAwesomeIcon className="home_icon" to="#" icon={faShieldDog} beatFade style={{ color: "#744c24", }} />
+                <NavLink className="patrinar"  to="patrinar">
+                    <FontAwesomeIcon className="home_icon"  icon={faShieldDog} beatFade style={{ color: "#744c24", }} />
                     Patrinar
                 </NavLink>
             </article>

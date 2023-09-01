@@ -1,0 +1,53 @@
+.patrinar_banner{
+    width: 100%;
+    max-width: 1250px;
+    margin: 20px auto;
+}
+
+.patrinar_banner img{
+    flex: 1;
+    max-width: 100%;
+    display: flex;
+}
+
+.container_patrinar_content{
+    width: 100%;
+    display: flex;    
+    flex-direction: row;
+    justify-content: center;    
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.container_patrinar_content .content_uno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.container_patrinar_content .content_uno img {    
+    border-radius: var(--border-radius);
+    opacity: 80%;
+    transition: 1s;
+    margin: 40px auto;
+}
+.container_patrinar_content .content_uno img:hover {
+    opacity: 100%;
+    transform: scale(1.08);
+}
+
+.container_patrinar_content .content_dos {
+    margin: 10% auto; 
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.container_patrinar_content .content_dos div{
+    background: var(--color3);
+    border-radius: var(--border-radius);
+    padding: 20px;
+}
+

@@ -29,7 +29,7 @@ const Footer = (props) => {
                             <a href="http://wa.me/+519947987433#" target="_blank">
                                 <FontAwesomeIcon icon={faWhatsapp} style={{ color: "#744c24", }} />
                             </a>
-                            <a href="https://www.google.com/maps/d/edit?mid=1l7K9b9OyY_ci9P3pdLBm-rzWxoYJP9FQ&usp=sharing" target="_blank">
+                            <a href="https://goo.gl/maps/4dXUKBAgnTL2GjMB6" target="_blank">
                                 <FontAwesomeIcon icon={faLocationDot} style={{ color: "#744c24", }} />
                             </a>
                         </div>
